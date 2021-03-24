@@ -26,13 +26,7 @@ namespace NapalmOS
             Taskbar.Initialize();
 
             // initialize start menu
-            StartMenu.Initialize();
-
-            // start programs
-            WindowManager.Start("taskman.app", null);
-            WindowManager.Start("term.app", null);
-
-            
+            StartMenu.Initialize();           
         }
 
         // update
